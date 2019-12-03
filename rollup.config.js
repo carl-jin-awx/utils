@@ -6,7 +6,7 @@ export default {
     typescript()
   ],
   output: {
-    file: './dist/bundle.js',
+    file: './index.js',
     format: 'umd',
     name: 'bundle'
   }
