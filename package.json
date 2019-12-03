@@ -1,0 +1,19 @@
+{
+  "name": "@carl-jin-awx/utils",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/" 
+  },
+  "repository": "https://github.com/carl-jin-awx/utils",
+  "dependencies": {
+    "rollup": "^1.27.8",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "build": "rollup --config"
+  }
+}
