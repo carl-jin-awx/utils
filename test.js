@@ -1,7 +1,8 @@
 const semanticRelease = require('semantic-release');
+const dotenv = require('dotenv')
 
 const run = async () => {
-  console.log(process.env)
+  dotenv.config()
   const result = await semanticRelease({
     branches: ['master'],
     repositoryUrl: 'https://github.com/carl-jin-awx/utils.git',
