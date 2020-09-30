@@ -15,3 +15,5 @@ export default {
   isEmptyObj,
   deleteProps
 }
+
+export const add = (val1: number, val2: number) => val1 + val2
