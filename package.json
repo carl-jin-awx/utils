@@ -7,6 +7,9 @@
   "scripts": {
     "build": "rollup --config"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "query-string": "^6.9.0",
     "rollup": "^1.27.8",
@@ -14,5 +17,8 @@
     "semantic-release": "^17.1.2",
     "tslib": "^1.10.0",
     "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
   }
 }
